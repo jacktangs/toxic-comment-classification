@@ -5,6 +5,11 @@
 
 利用LSTM和T5做多标签分类，根据置信度将评论打上有害（toxic），严重有害（severe-toxic），淫秽（obscene），恐吓（threat），侮辱（insult）和身份仇恨（identity_hate）的标签，多标签可以共存。
 
+使用的数据集包括
+1. ) [Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) 来自Kaggle比赛的数据集，由维基百科评论页的有害评论组成。
+2. ) [Sensai](https://www.kaggle.com/api/v1/datasets/download/uetchy/sensai) 由虚拟主播直播中的有害评论组成。
+3. ) [The Toxicity Dataset](https://github.com/surge-ai/toxicity) 由来自各种流行的社交媒体平台的500条有害和500条无害评论组成。
+
 上传了数据处理，模型训练和ui部分的代码。
 
 实际效果如下图：
